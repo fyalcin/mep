@@ -1,6 +1,6 @@
 from typing import List, Union
 from collections.abc import Sized
-from pymatgen import Structure, Molecule, Site
+from pymatgen.core.structure import Structure, Molecule, Site
 import numpy as np
 from mep.utils import interpolate_molecule
 
